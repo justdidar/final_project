@@ -1,0 +1,118 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: 'gilroy', sans-serif;
+}
+
+.container div {
+    float: left;
+}
+
+.leftmenu {
+    width: 19.765625%; 
+    padding-left: 71px;
+    border-right: 1px solid #DEDEDE;
+    position: fixed;
+    padding-top: 22px;
+    height: 720px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.leftext {
+    padding-bottom: 13px;
+}
+
+.land {
+    width: 80.234375%;
+    height: 800px;
+    margin-left: 19.765625%;
+}
+
+.imgg {
+    margin-bottom: 146px;
+    width: 65%;
+}
+
+.landing {
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.imgpreview {
+    width: 60%;
+    height: auto;
+    
+}
+
+.items {
+    text-align: left;
+}
+
+
+.header {
+    padding-right: 71px;
+    text-align: right;
+    height: 77px;
+    width: 100%;
+    padding-top: 26px;
+    padding-left: 72px;
+}
+
+.headertext {
+    padding-left: 72px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.lendtext0 {
+    font-weight: 700;
+    font-size: 150px;
+    position: absolute;
+}
+
+.lendText1 {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    padding-top: 150px;
+    padding-left: 29px;
+    
+}
+
+.lendText2 {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.05em;
+    padding-left: 29px;
+    margin: 0;
+}
+
+.more {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 14px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 29px;
+    margin-top: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.more:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
