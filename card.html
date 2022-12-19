@@ -13,12 +13,12 @@
         <div class="cheader">
             <div class="aa">
                 <a class="menutext" href="#">Menu</a>
-                <a class="searchtext" href="#">Search</a>
+                <a class="htext2" href="#">Search</a>
             </div>
             <img src="img/noroot 2.png" alt="" class="logo1">
             <div class="ad">
-                <a class="rtext" href="#">Wishlist</a>
                 <a class="rtext" href="#">Basket</a>
+                <a class="htext1"" href="#">Log In</a>
             </div>
         </div>
         <div class="imgdiv">
@@ -34,10 +34,48 @@
                 </div>
                 <div class="title3">Size guide</div>
                 <h3 class="title4">11,990.00 KZT</h1>
-                <button class="cardbutton">In Basket</button>
-                <button class="cardbutton2">Find in Store</button>
+                <form action="">
+                    <button class="cardbutton">In Basket</button>
+                    <button class="cardbutton2" formaction="catalog.html">Find in Store</button>
+                </form>
             </div> 
         </div>
     </div>
+    <form class="login">
+        <div class="ident">
+            <h1 class="idtext">IDENTIFICATION</h1>
+            <button class="ex"><img src="img/free-icon-close-7159094.png" alt="" class="exicon"></button>
+        </div>
+        <div class="fields">
+            <h1 class="ftitle">I ALREADY HAVE AN ACCOUNT</h1>
+            <p class="logtext">Login</p>
+            <input type="text" id="email" class="field">
+            <p class="logtext">Password</p>
+            <input type="password" id="password" class="field">
+            <button class="cardbutton1">Sign In</button>
+        </div>
+        <div class="borderd"></div>
+        <div class="signup">
+            <h1 class="ftitle">I DON'T HAVE AN ACCOUNT</h1>
+            <button class="cardbutton1" formaction="Online.html">Create account</button>
+        </div>
+    </form>
+
+    <div class="search">
+        <div class="sfield">
+            <input type="text"  class="sblock" placeholder="Search">
+            <button class="butex"><img src="img/free-icon-close-7159094.png" alt="" class="exic"></button>
+        </div>
+    </div>
+    <div class="lmenu">
+        <button class="butex1"><img src="img/free-icon-close-7159094.png" alt="" class="exic"></button>
+        <a href="catalog.html"><p class="lmtext">Men</p></a>
+        <a href="catalog.html"><p class="lmtext">Women</p></a>
+        <a href="catalog.html"><p class="lmtext">Kids</p></a>
+        <a href="catalog.html"><p class="lmtext">Discounts</p></a>
+        <a href="catalog.html"><p class="lmtext">Favourite</p></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

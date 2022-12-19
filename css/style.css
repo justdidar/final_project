@@ -40,7 +40,7 @@ body.shadow {
 .ltext {
     line-height: 24px;
     margin-bottom: 35px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 550;
 }
 
@@ -70,8 +70,8 @@ body.shadow {
 
 .htext {
     text-align: right;
-    font-size: 22px;
-    font-weight: 550;
+    font-size: 20px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     margin-left: 75px;
@@ -79,8 +79,8 @@ body.shadow {
 
 .htext1 {
     text-align: right;
-    font-size: 22px;
-    font-weight: 550;
+    font-size: 20px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     margin-left: 75px;
@@ -88,8 +88,8 @@ body.shadow {
 
 .htext2 {
     text-align: right;
-    font-size: 22px;
-    font-weight: 550;
+    font-size: 20px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     margin-left: 75px;
@@ -176,6 +176,11 @@ body.shadow {
     margin-top: 35px;
 }
 
+.items h3{
+    text-decoration: none;
+    color: black;
+}
+
 .img3 {
     width: 235px;
 }
@@ -185,6 +190,7 @@ body.shadow {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 0px;
+    text-decoration: none;
 }
 
 .itext22 {
@@ -229,20 +235,27 @@ body.shadow {
 }
 
 .menutext {
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
 
 .searchtext {
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     margin-left: 70px;
 }
 
 .rtext {
-    font-weight: 500;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+}
+
+.rtext1 {
+    font-weight: 400;
     text-decoration: none;
     color: black;
     margin-left: 70px;
@@ -578,3 +591,50 @@ body.shadow {
 }
 
 /* -------- search -------- */
+/* -------- menu -------- */
+
+.lmenu {
+    height: 100%;
+    width: 22%;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    transform: translateX(-100%);
+	transition: transform 0.5s;
+    padding: 50px;
+    border-right: 1px solid #DEDEDE;
+}
+
+.lmenu.active1 {
+    transform: translateX(0);
+}
+
+.lmenu a {
+    text-decoration: none;
+}
+
+.butex1 {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    right: 0px;
+    margin-bottom: 25px;
+}
+
+.lmtext {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.lmtext:hover{
+    color: #DEDEDE;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    text-decoration-line: underline;
+}
+
+/* -------- menu -------- */
