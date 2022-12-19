@@ -1,0 +1,224 @@
+body{
+    background-color:#f6f5f3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .logotype{
+    height: 32px;
+    width: 118px;
+    top: 12px;
+    border-radius: 0px;
+    position: relative;}
+img.logotype{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+      left: 650px;}
+  .logo {
+    display: block;
+    height: 82px;
+    width: auto;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #ffffff;
+ }
+ .logo ul{
+    display: inline-flex;
+  }
+  .logo ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .logo ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  .logo ul li a:hover{
+    background: #fff;
+    color: rgb(154, 154, 154);
+  }
+  .menu{
+    position: absolute;
+    width: 41px;
+    height: 19px;
+    left: 112px;
+    top: 33px;}
+  .search{
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 226px;
+    top: 33px;}
+  .wish{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    right: 226px;
+    top: 33px;}
+  .basket{
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    right: 112px;
+    top: 33px;}
+  .centreback{
+        position:absolute;
+        width: 1350px;
+        height: 520px;
+        margin-left: 100px;
+        margin-right: 100px;
+        top: 158px;
+        background: #ffffff;
+        font-family: 'Gilroy';
+        font-style: normal;}
+  .title{
+      position: absolute;
+      width: 300px;
+      left: 520px;
+      top: 70px;
+      font-size: 35px;
+      line-height: 35px;
+      color: #000000;}
+  .sub_title{ 
+      position: absolute;
+      left: 170px;
+      top: 150px;
+      font-size: 22px;
+      line-height: 21px;
+      width: 1000px;
+      text-align: center;
+      color: #585858;}
+  .line {
+      border-bottom: 1px solid #b5b5b5;
+      width: auto;
+      position: relative;
+      top: 245px;}
+  .question{
+      position: absolute;
+      left: 590px;
+      top: 300px;
+      font-size: 22px;
+      line-height: 21px;
+      color: #000000;}
+.a1{
+  position: absolute;
+  width: 275px;
+  height: 48px;
+  left: 340px;
+  top: 350px; 
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 0.5px solid #A4A4A4;}
+.a2{
+  position: absolute;
+  width: 275px;
+  height: 48px;
+  left: 340px;
+  top: 410px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 0.5px solid #A4A4A4;}  
+.a3{
+  position: absolute;
+  width: 275px;
+  height: 48px;
+  left: 630px;
+  top: 350px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 0.5px solid #A4A4A4;}
+.a4{
+  position: absolute;
+  width: 275px;
+  height: 48px;
+  left: 630px;
+  top: 410px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 0.5px solid #A4A4A4;}
+  .btns ul li{
+        list-style: none;
+        position:absolute;
+        }
+  .btns ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        }
+  .btns ul li a:hover{
+        background: rgb(0, 0, 0);
+        color: rgb(131, 131, 131);}
+  .btns ul li a button{
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        cursor: pointer;}
+  .btns ul li a button:hover{
+        background: rgb(205, 205, 205);
+        color: rgb(255, 255, 255);} 
+.menuicon{    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 26px;
+    left: 80px;}
+.searchicon{    
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 30px;
+  left: 200px;}
+.a{
+    position: absolute;
+    left: 70px;
+    top: 127px;
+    font-family: 'Gilroy';
+    font-size: 30px;}
+.b{ 
+    position: absolute;
+    left: 70px;
+    top: 160px;
+    font-family: 'Gilroy';
+    font-size: 22px;}
+.favor{
+    display: block;
+    position: absolute;
+    width: 324px;
+    height: 375px;
+    left: 70px;
+    top: 212px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-size: 22px;}
+.favor img.product{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3px;}
+p{  display: block;
+    margin-block-start: 4px;
+    margin-block-end: 4px;}
+.c{
+    font-size: 16px;}
+.favor p{
+    margin-left: 24px;}
+.favor img{
+    margin-left: 292px;
+    margin-top: -11px;}
+    
