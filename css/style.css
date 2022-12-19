@@ -76,7 +76,7 @@ body {
     right: -57px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #F2F2F2;
-    
+
 }
 
 .mtext2 {
@@ -166,3 +166,122 @@ body {
 }
 
 /* -------- items -------- */
+
+/* -------- catalog -------- */
+/* -------- header -------- */
+
+.cheader {
+    width: 100%;
+    height: 85px;
+    border-bottom: 1px solid #DEDEDE;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+.menu {
+    height: 85px;
+    margin-top: 28px;
+}
+
+
+.iconmenu { 
+    margin-right: 15px;
+    width: 26px;
+}
+
+.menutext {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.searchtext {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+}
+
+.rtext {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+}
+
+.logo1 {
+    position: absolute;
+
+}
+
+.aa {
+    width: 44.5%;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.ad {
+    width: 55.5%;
+    text-align: right;
+    margin-top: 7px;
+}
+
+/* -------- header -------- */
+/* -------- main -------- */
+
+.ctext1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    height: 140px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.filter {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #DEDEDE;
+
+}
+
+.filter1 {
+    width: 62.5%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.filter2 {
+    width: 18.75%;
+    text-align: center;
+    border-left: 1px solid #DEDEDE;
+    padding-top: 25px;
+    height: 69px;
+}
+
+.cimg1 {
+    width: 66.4%;
+    margin: 0px;
+    padding: 0px;
+}
+.cimg2 {
+    width: 33.1%;
+    margin: 0px;
+}
+
+.images {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+/* -------- main -------- */
+/* -------- catalog -------- */
