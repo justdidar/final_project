@@ -254,9 +254,10 @@ body {
 
 .filter1 {
     width: 62.5%;
-    text-align: center;
+    text-align: right;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-right: 100px;
 }
 
 .filter2 {
@@ -285,3 +286,111 @@ body {
 
 /* -------- main -------- */
 /* -------- catalog -------- */
+
+/* -------- card -------- */
+
+.imgdiv {
+    width: 50%;
+}
+
+.maindiv {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.imgcard {
+    width: 100%;
+}
+
+.elements {
+    width: 440px;
+    margin-top: 100px;
+}
+
+.title1 {
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 23px;
+}
+
+.ficon {
+    width: 30px;
+    margin-left: 293px;
+}
+
+.title2 {
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+
+.stext {
+    margin-left: 375px;
+}
+
+.title3 {
+    margin-top: 23px;
+    font-size: 18px;
+    margin-left: 355px;
+}
+
+.title4 {
+    margin-top: 230px;
+}
+
+.cardbutton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 14px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cardbutton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.cardbutton2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 14px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cardbutton2:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.divb {
+    margin-top: 20px;
+}
+
+/* -------- card -------- */
