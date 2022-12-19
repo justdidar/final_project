@@ -1,10 +1,11 @@
+/* --------------------Фон для обеих ---------------------*/
 body{
     background-color:#f6f5f3;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-  .logotype{
+    box-sizing: border-box;}
+/* ------------------ Хедр, заголовок как хочешь ---------------------*/
+.logotype{
     height: 32px;
     width: 118px;
     top: 12px;
@@ -68,6 +69,19 @@ img.logotype{
     height: 19px;
     right: 112px;
     top: 33px;}
+.menuicon{    
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 26px;
+        left: 80px;}
+.searchicon{    
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      top: 30px;
+      left: 200px;}
+/*-------------------- css для error page ---------------------------*/
   .centreback{
         position:absolute;
         width: 1350px;
@@ -171,18 +185,7 @@ img.logotype{
   .btns ul li a button:hover{
         background: rgb(205, 205, 205);
         color: rgb(255, 255, 255);} 
-.menuicon{    
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 26px;
-    left: 80px;}
-.searchicon{    
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  top: 30px;
-  left: 200px;}
+/* -----------------------css для favourites --------------------------*/
 .a{
     position: absolute;
     left: 70px;
