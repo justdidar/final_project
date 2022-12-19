@@ -578,3 +578,16 @@ body.shadow {
 }
 
 /* -------- search -------- */
+.menuicon{    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 26px;
+    left: 38px;}
+.searchicon{    
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 30px;
+  left: 175px;}
+/*-----------иконки твои----------*/
