@@ -40,7 +40,7 @@ body {
 .right {
     width: 80.76%;
     padding-left: 80px;
-    height: 818px;
+    height: 745px;
     margin-left: 19.24%;
     border-bottom: 1px solid #DEDEDE;
 }
@@ -73,8 +73,10 @@ body {
     margin: 0;
     margin-left: 10px;
     top: 60px;
-    right: -155px;
-
+    right: -57px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #F2F2F2;
+    
 }
 
 .mtext2 {
@@ -126,6 +128,41 @@ body {
 .items {
     height: 500px;
     margin-left: 19.24%;
+    width: 80.76%;
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.itext1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 38px;
+}
+.imgitems {
+    margin-top: 35px;
+}
+
+.img3 {
+    width: 235px;
+}
+
+.itext2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.itext22 {
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.imgitems2 {
+    margin-top: 35px;
+    margin-left: 42px;
 }
 
 /* -------- items -------- */
