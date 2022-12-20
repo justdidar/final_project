@@ -357,104 +357,87 @@ line-height: 19px;
     background-color: white;
     border-color: white;
 }
-
-
-.cheader {
-    background-color: white;
-    width: 100%;
-    height: 85px;
-    border-bottom: 1px solid #DEDEDE;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 20px;
-    padding-top: 22px;
-    padding-bottom: 20px;
-    display: flex;
+.img12{
+    display: none;
 }
 
 
 
-.menu {
-    height: 85px;
-    margin-top: 28px;
+
+
+
+
+@media screen and (max-width:1200px) {
+    .civ1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .civ2{
+        width: 100%;
+    }
 }
-
-
-.iconmenu { 
-    margin-right: 15px;
-    width: 26px;
+@media screen and (max-width:1000px) {
+    .Div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div3{
+        width: 50%;
+    }
+    .div101{
+        width: 100%;
+        height: 300px;
+    }
+    .vid{
+        width: 100%;
+    }
 }
-
-.menutext {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
+@media screen and (max-width:1000px) {
+    .diva1{
+        display: none;
+    }
+    .diva2{
+        display: none;
+    }
+    .diva3{
+        display: none;
+    }
+    .img12{
+        display: block;
+        position: absolute;
+        top: 15px;
+        bottom: 0px;
+        right: 0px;
+        left: 40px;
+    }
 }
-
-.searchtext {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    margin-left: 70px;
+@media screen and (max-width:700px) {
+    .civ2{
+        display: none;
+    }
+    .civ1{
+        justify-content: center;
+    }
+    .div3{
+        width: 70%;
+    }
 }
-
-.rtext {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    margin-left: 70px;
-}
-
-.rtext1 {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    margin-left: 70px;
-}
-
-.logo11 {
-    left: 50%;
-}
-
-.ab {
-    width: 20%; 
-    display: flex;
-    justify-content: center;
-}
-
-.aa {
-    width: 40%;
-    text-align: left;
-    margin-top: 7px;
-}
-
-.ad {
-    width: 40%;
-    text-align: right;
-    margin-top: 7px;
-}
-
-
-body {
-    background-color: white;
-    margin: 0px;
-    font-family: 'gilroy', sans-serif;
-}
-
-.htext1 {
-    text-align: right;
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    margin-left: 75px;
-}
-
-.htext2 {
-    text-align: right;
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-    margin-left: 75px;
+@media screen and (max-width:552px) {
+    .pm{
+        display: none;
+    }
+    .div1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .div3{
+        width: 82%;
+    }
+    .div101{
+        width: 120%;
+        position: relative;
+        right: 10%;
+    }
 }
