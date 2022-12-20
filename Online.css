@@ -1,125 +1,153 @@
 *,*:before,*:after {
     box-sizing: border-box;
 }
-
-body {
+.body{
+    background-color: #F6F5F3;
     margin: 0px;
     font-family: 'gilroy', sans-serif;
 }
 
-.div1{
+.header{
+    height: 60x;
+    position: fixed;
     width: 100%;
-    height: 82px;
-    background-color: white;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    background-color: white;
+    border: 1px solid #B5B5B5;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.div1{
+    margin-top: 6px;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B5B5B5;
+    border-color: #BDBDBD;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.div2{
+    width: 80%;
+}
+.div2 p{
+    color:#6F6F6F;
     font-family: 'Gilroy';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    border: 1px solid #B5B5B5;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.Div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 540px;
+}
+
+
+
+.div3{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Div3{
+    margin-top: 100px;
+    width: 75%;
+    height: 100%
+}
+
+.D{
+    height: 12%;
+    font-family: 'Gilroy';
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 1px solid #BDBDBD;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
 }
-
-
-
-.diva1{
-    width: 35%;
+#D1{
+    height: 12%;
+    font-family: 'Gilroy';
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.diva1 > div{
-    padding: 45px;
-}
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
 
-.diva2{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+text-transform: uppercase;
 }
-
-.diva3{
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.diva3 > div{
-    padding: 45px;
-}
-
-
-.Div1{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 489px;
-}
-
-.div2{
-    width: 68%;
-    height: 100%;
-    background-color: red;
-}
-
-.div3{
-    width: 32%;
-    height: 100%;
+#D2{
+    height: 45%;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.div3 > table {
+#D21{
+    margin-bottom: 30px;
+    width: 85%;
+    height: 80%;
     font-family: 'Gilroy';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6F6F6F;
 }
-
-
-.table{
-    width: 300px;
-    margin-top: 20px;
+#D21 input{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
 }
-
-.tbl2{
+#D3{
+    height: 15%;
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 30px;
 }
-.tbl1{
-    height: 30px;
-}
-
-.font{
-    font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-}
-
-.divo2{
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-}
-.btn1{
-    margin-top: 15px;
-    width: 250px;
+.btn{
+    width: 170px;
     height: 40px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+.btn:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.btn1{
+    width: 70px;
+    height: 40px;
+    margin-right: 20px;
     background-color: black;
     color: white;
     border-color: black;
@@ -133,21 +161,193 @@ line-height: 19px;
 }
 
 
-.divo3{
-    margin-top: 10%;
-    width: 100%;
-    height: 52%;
+
+.div4{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.div5{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 60%;
+    margin-top: 20%;
+}
+
+
+.div6{
+    padding: 30px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.div7{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #6F6F6F;
     border: 1px solid rgba(0, 0, 0, 0.09);
     border-left: 0px;
     border-right: 0px;
-    border-bottom: 0px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.div8{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.div9{
+    height: 52.5%;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #F6F5F3;
+}
+.div9 > div{
+    padding: 17px;
 }
 
-.divo00{
-    width: 80%;
-    background-color: blue;
-    height: 100%;
+.div01{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.div02{
+    width: 85%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    height: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.div03{
+    width: 85%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    display: flex;
+    height: 8%;
+}
+.div04{
+    width: 85%;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    display: flex;
+    height: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-left: 0px;
+    border-right: 0px;
+}
+.div05{
+    width: 85%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    display: flex;
+    height: 8%;
+}
+
+
+@media screen and (max-width:1152px) {
+    .div01{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:900px) {
+    .div01{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:793px) {
+    .D{
+        font-size: 25px;
+    }
+    .div1{
+        border-right: 0px;
+        width: 50%;
+    }
+    .header{
+        justify-content: center;
+    }
+    .div2{
+        width: 50%;
+    }
+    .div8{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:665px) {
+    .D{
+        height: 16%;
+    }
+}
+@media screen and (max-width:600px) {
+    .Div{
+        display: block;
+    }
+    .div3{
+        width: 100%;
+        height: 100%;
+    }
+    .div4{
+        width: 75%;
+        margin-left: 12.5%;
+        height: 65%;
+    }
+    #D3{
+        justify-content: center;
+    }
+    .div9{
+        height: 170px;
+    }
+    .div5{
+        position: relative;
+        bottom: 40px;
+    }
+    #D21 input{
+        font-size: 15px;
+    }
 }
