@@ -37,6 +37,21 @@ body.shadow {
     margin-bottom: 147px;
 }
 
+.logo1 {
+    width: 165px;
+    margin-bottom: 147px;
+    display: none;
+}
+
+
+
+.logo2 {
+    width: 165px;
+    display: none;
+    margin: 0;
+    position: absolute;
+}
+
 .ltext {
     line-height: 24px;
     margin-bottom: 35px;
@@ -183,9 +198,9 @@ body.shadow {
     text-align: center;
     margin-top: 50px;
     font-size: 38px;
+    margin-bottom: 50px;
 }
 .imgitems {
-    margin-top: 35px;
 }
 
 .items h3{
@@ -212,7 +227,10 @@ body.shadow {
 }
 
 .imgitems2 {
-    margin-top: 35px;
+    margin-left: 42px;
+}
+
+.imgitems3 {
     margin-left: 42px;
 }
 
@@ -230,7 +248,7 @@ body.shadow {
     font-size: 20px;
     padding-top: 22px;
     padding-bottom: 20px;
-    
+    display: flex;
 }
 
 
@@ -273,19 +291,24 @@ body.shadow {
     margin-left: 70px;
 }
 
-.logo1 {
-    position: absolute;
+.logo11 {
+    left: 50%;
+}
 
+.ab {
+    width: 20%; 
+    display: flex;
+    justify-content: center;
 }
 
 .aa {
-    width: 44.5%;
+    width: 40%;
     text-align: left;
     margin-top: 7px;
 }
 
 .ad {
-    width: 55.5%;
+    width: 40%;
     text-align: right;
     margin-top: 7px;
 }
@@ -651,3 +674,376 @@ body.shadow {
 }
 
 /* -------- menu -------- */
+
+.hamburger {
+    width: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger1 {
+    width: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+.chamburger1 {
+    width: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px){
+
+}
+
+@media screen and (max-width: 1200px) {
+    .right {
+        width: 70%;
+    }
+
+    .header {
+        padding-right: 0px;
+    }
+
+    .main2 {
+    }
+    
+    .mtext1{
+        font-size: 0;
+    }
+
+    .img1 {
+    
+    }
+
+    .mtext2{
+        font-size: 24px;
+    }
+    .mtext3 {
+        font-size: 40px;
+    }
+    .logo {
+        width: 130px;
+    }
+
+    .right {
+        height: 550px;
+    }
+    
+    .items {
+        width: 75%;
+        margin-left: 25%;
+    }
+
+    .imgitems{
+        margin: 0;
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .imgitems2{
+        margin: 0;
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .imgitems3{
+        margin: 0;
+        width: 40%;
+        margin-left: 20px;
+    }
+    
+    
+    .items img {
+        width: 110%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1148px) {
+    .cimg2 {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .img1 {
+        right: 0px;
+    }
+
+    .mtext2{
+        font-size: 17px;
+        margin-top: 100px;
+    }
+    .mtext3 {
+        font-size: 30px;
+    }  
+
+    .logo {
+        width: 100px;
+    }
+    .header a {
+        margin-left: 50px;
+    }
+
+    .left {
+        padding-left: 50px;
+    }
+
+    .left p {
+        font-size: 18px;
+    }
+
+    .right {
+        height: 430px;
+    }
+
+    .imgitems{
+        margin-top: 0;
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .aa {
+        display: none;
+    }
+
+    .ad {
+        display: none;
+    }
+
+    .cheader {
+        padding: 21px 40px;
+        display: flex;
+    }
+    .chamburger1 {
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+    }
+
+    .imgdiv {
+        width: 100%;
+    }
+
+    .maindiv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left {
+        display: none;
+    }
+    .right {
+        margin-left: 0px;
+        width: 100%;
+        padding-right: 50px;
+    }
+
+    .header {
+        padding-right: 0px;
+    }
+
+    .logo {
+        
+    }
+
+    .items{
+        margin: 0;
+        width: 100%;
+    }
+
+    .imgitems{
+        margin-top: 0;
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .imgitems2{
+        margin: 0;
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .imgitems3{
+        margin: 0;
+        width: 40%;
+        margin-left: 20px;
+    }
+    
+    .items img {
+        width: 110%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .header a{
+        opacity: 0;
+    }
+
+    .hamburger1 {
+        display: flex;
+        margin: 0;
+        margin-left: 92%;
+
+    }
+
+    .logo1 {
+        display: flex; 
+        margin-top: 20px;
+        width: 130px;
+        margin-bottom: 0;
+        position: absolute;
+    }
+
+    .header {
+        height: 70px;
+        margin-top:  0px;
+        margin-bottom: 0px;
+    }
+
+    .chamburger1 {
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+    }
+
+    .logo11 {
+        margin-left: 40px;
+    }
+
+    .lmenu {
+        transform: translateX(-200%);
+    }
+
+    .cimg1 {
+        display: none;
+    }
+    .cimg2 {
+        width: 49.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .header a {
+        display: none;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .mtext2 {
+        margin-top: 130px;
+        font-size: 30px;
+    }
+
+    .mtext3 {
+        font-size: 55px;
+    }
+
+    .more {
+        width: 100%;
+    }
+
+    .logo1 {
+        display: flex;
+        width: 130px;
+        margin-top: 20px;
+    }
+
+    
+    .hamburger {
+        margin-top: 20px;
+        display: flex;
+        margin-left: 90%;
+    }
+
+    .hamburger1 {
+        display: none;
+    }
+
+    .itext1 {
+        font-size: 30px;
+    }
+
+    .items div {
+        width: 91%;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .right {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 50px;
+    }
+
+    .items {
+        margin: 0;
+    }
+
+    .itext1 {
+        font-size: 30px;
+    }
+
+    .items div {
+        width: 100%;
+        margin: 0;
+    }
+    .ctext1 {
+        font-size: 25px;
+        padding-top: 30px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    
+    .filter {
+    }
+
+    .cimg1 {
+        width: 100%;
+    }
+    .cimg2{
+        width: 100%;
+    }
+
+    .imgdiv {
+        width: 100%;
+    }
+
+    .maindiv {
+        width: 100%;
+        
+    }
+
+    .ficon {
+        margin-left: 60%;
+
+    }
+
+    .title3 {
+        margin-left: 74%;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    
+}
