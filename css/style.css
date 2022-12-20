@@ -213,6 +213,12 @@ body.shadow {
     width: 235px;
 }
 
+.img3.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+}
+
 .itext2 {
     font-weight: 500;
     font-size: 18px;
