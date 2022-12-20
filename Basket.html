@@ -1,112 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basket</title>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
-    <link rel="stylesheet" href="Basket.css">
-    <script src="Basket.js"></script>
-</head>
-<body style="background-color: #F6F5F3;">
-    <div>
+.login {
+    height: 100%;
+    right: 0;
+    width: 33%;
+    position: fixed;
+    background-color: white;
+    transform: translateX(100%);
+  transition: transform 0.5s;
+}
 
-        <div class="div1">
-            <div class="diva1">
-                <div class="diva01">
-                    <p></p><p>Menu</p>
-                </div>
-                <div class="diva02">
-                    <p></p><p>Search</p>
-                </div>
-            </div>
-            <div class="diva2">
-                <img src="img/noroot 2.png" alt=""  width="138px" height="42px">
-            </div>
-            <div class="diva3">
-                <div>
-                    <p></p><p>Wishlist</p>
-                </div>
-                <div>
-                    <p></p><p>Basket</p>
-                </div>
-            </div>
-        </div>
+.login.active {
+    transform: translateX(0);
+}
 
-        <div class="Div1">
-            <div class="div2">
-                <div class="civ">
-                    <div class="civ1">
-                        <p>My shopping cart</p>
-                    </div>
-                    <div class="civ2">
-                        <p>Continue Shopping</p>
-                    </div>
-                </div>
-                <div class="div101">
-                <div class="vid">
-                    <div class="imgg">
-                        <img src="img/image 22.png" alt="" width="99%" height="99%">
-                    </div>
-                    <div class="dop">
-                        <div class="dop1">
-                            <div class="dop01">T-SHIRT</div>
-                        </div>
-                        <div class="dop2">
-                            <div class="dop02">
-                                <table>
-                                    <tr><td class="tdd1">Color</td><td class="tdd3 tdd1">Beige</td></tr>
-                                    <tr><td class="tdd1">Material</td><td class="tdd3 tdd1">Cotton</td></tr>
-                                    <tr><td class="tdd1">Size</td><td class="tdd3 tdd1">xl</td></tr>
-                                    <tr class="tdd0"><td class="tdd1"></td><td class="tdd3 tdd1"></td></tr>
-                                    <tr><td class="tdd1"></td><td class="tdd2 tdd3">11990,00 KZT</td></tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="dop3">
-                            <div class="dop03">
-                            <div class="dop0001"><a href="card.html"><button class="btn2">View Details</button></a></div>
-                            <div class="dop0002"><button disabled class="btn3">Remove</button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
+.ident {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #DEDEDE;
+    display: flex;
+}
 
-            <div class="div3">
-                <div class="divo1">
-                    <table class="table">
-                        <tr><td class="tbl1">Subtotal</td><td class="tbl2">11990,00</td><td>KZT</td></tr>
-                        <tr><td class="tbl1">Shopping</td><td class="tbl2">0,00</td><td>KZT</td></tr>
-                        <tr><td class="tbl1">Tax</td><td class="tbl2">0,00</td><td>KZT</td></tr>
-                        <tr><td class="tbl1"> </td><td class="tbl2"> </td></tr>
-                        <tr class="font"><td class="tbl1">Total</td><td class="tbl2">11990,00</td><td>KZT</td></tr>
-                    </table>
-                </div>
-                <div class="divo2">
-                    <a href="#"><button class="btn1">Proceed to checkout</button></a>
-                </div>
-                <div class="divo3">
-                    <div class="divo00">
-                        <div class="divo01">
-                            <p class="p1">PAYMENT</p>
-                            <p class="p2">Credit card, debit to PayPal</p>
-                        </div>
-                        <div class="divo02">
-                            <p class="p1">SHIPPING & DELIVERY</p>
-                            <p class="p2">Complimentary Green Delivery</p>
-                        </div>
-                        <div class="divo03">
-                            <p class="p1">RETURNS & EXCHANGES</p>
-                            <p class="p2">Complimentary</p>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-        </div>
+.idtext {
+    font-size: 27px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
 
-    </div>
-</body>
-</html>
+.exicon {
+    width: 20px;
+}
+
+.ex {
+    padding: 25px 30px;
+    background-color: white;
+    border: 1px solid #DEDEDE;
+    cursor: pointer;
+    margin-left: 173px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.ex:hover {
+    background-color: #DEDEDE;
+}
+
+.fields {
+    margin-left: 50px;
+}
+
+.ftitle {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.field {
+    width: 430px;
+    margin: 0px;
+    height: 50px;
+    border: 1px solid #DEDEDE;
+    padding: 0px 20px;
+}
+
+.logtext {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.cardbutton1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 430px;
+    margin-top: 40px;
+}
+
+.cardbutton1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.borderd {
+    border-bottom: 1px solid #DEDEDE;
+    width: 100%;
+    height: 30px;
+}
+
+.signup {
+    margin-left: 50px;
+}
+
+/* -------- log in -------- */
+/* -------- search -------- */
+
+.search {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 28px 0;
+    margin: 0;
+    transform: translateY(-100%);
+  transition: transform 0.5s;
+
+}
+
+.search.active {
+    transform: translateY(0);
+}
+
+.sblock {
+    width: 700px;
+    height: 40px;
+    background-color: #F6F5F3;
+    border-radius: 4px;
+    padding: 10px 40px;
+    border: none;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.exic {
+    width: 20px;
+}
+
+.butex {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    right: 0px;
+}
