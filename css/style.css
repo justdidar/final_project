@@ -165,6 +165,18 @@ body.shadow {
     float: left;
     padding-left: 80px;
     padding-right: 80px;
+    /* opacity: 0;
+    transform: translateY(100%); */
+}
+
+/* .items.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%)
+} */
+
+.items a {
+    text-decoration: none;
 }
 
 .itext1 {

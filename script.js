@@ -15,19 +15,10 @@ menuBtn.addEventListener('click', function(){
     menu.classList.toggle('active');
 })
 
-menutext.addEventListener('click', function(){
-    lmenu.classList.toggle('active1');
-})
-
-butex1.addEventListener('click', function(){
-    lmenu.classList.remove('active1');
-})
-
 ex.addEventListener('click', function(){
     menu.classList.remove('active');
     
 })
-
 
 activebtn.addEventListener('click', function(){
     search.classList.toggle('active');
@@ -37,3 +28,12 @@ butex.addEventListener('click', function(){
     search.classList.remove('active');
    
 })
+
+menutext.addEventListener('click', function(){
+    lmenu.classList.toggle('active1');
+})
+
+butex1.addEventListener('click', function(){
+    lmenu.classList.remove('active1');
+})
+
