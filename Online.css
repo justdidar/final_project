@@ -1,8 +1,18 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'gilroy', sans-serif;
+}
+
 .header{
     height: 60x;
     position: fixed;
-    width: 98.7%;
+    width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: row;
     background-color: white;
     border-style: groove;
@@ -64,15 +74,37 @@
 
 .D{
     height: 12%;
-    font-family: 'Gilroy';
+    /*font-family: 'Gilroy';
     font-size: 30px;
+    font-style: normal; */
+    font-family: 'Gilroy';
+    display: flex;
+    align-items: center;
     font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border-style: groove;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
 }
-.D1{
+#D1{
     height: 12%;
+    font-family: 'Gilroy';
+    display: flex;
+    align-items: center;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: uppercase;
 }
 #D2{
-    height: 40%;
+    height: 45%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -82,6 +114,13 @@
     margin-bottom: 30px;
     width: 85%;
     height: 80%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #6F6F6F;
 }
 #D21 input{
     width: 300px;
@@ -125,19 +164,22 @@
     height: 60%;
     margin-top: 20%;
 }
-.div5 div{
-    padding: 10px;
-}
+
 
 .div6{
+    padding: 30px;
     height: 10%;
     display: flex;
     align-items: center;
     font-family: 'Gilroy';
     font-style: normal;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
 }
 .div7{
+    padding: 30px;
     display: flex;
     align-items: center;
     height: 10%;
@@ -152,30 +194,47 @@
     border-color: rgba(0, 0, 0, 0.2);
 }
 .div8{
+    padding: 30px;
     display: flex;
     align-items: center;
     height: 10%;
     font-family: 'Gilroy';
     font-style: normal;
+    font-weight: 400;
     font-size: 15px;
+    line-height: 17px;
 }
 .div9{
-    height: 70%;
+    height: 54.5%;
     margin-top: 10px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #F6F5F3;
 }
+.div9 > div{
+    padding: 17px;
+}
 
 .div01{
+    display: flex;
+    align-items: center;
     height: 15%;
     font-family: 'Gilroy';
     font-style: normal;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 .div02{
+    width: 85%;
     font-family: 'Gilroy';
     font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
     align-items: center;
     height: 8%;
     border-style: groove;
@@ -184,27 +243,39 @@
     border-top: 0px;
 }
 .div03{
+    width: 85%;
     font-family: 'Gilroy';
     font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
     align-items: center;
+    display: flex;
     height: 8%;
 }
 .div04{
+    width: 85%;
+    
     font-family: 'Gilroy';
     font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
     align-items: center;
+    display: flex;
     height: 8%;
     border-style: groove;
     border-left: 0px;
     border-right: 0px;
 }
 .div05{
+    width: 85%;
     font-family: 'Gilroy';
     font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
     align-items: center;
+    display: flex;
     height: 8%;
-    border-style: groove;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
 }
