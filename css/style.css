@@ -66,7 +66,7 @@ body.shadow {
 .right {
     width: 80.76%;
     padding-left: 80px;
-    height: 818px;
+    height: auto;
     margin-left: 19.24%;
     border-bottom: 1px solid #DEDEDE;
 }
@@ -123,7 +123,7 @@ body.shadow {
     top: 60px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #F2F2F2;
-    transform: translateX(29%); 
+    transform: translateX(35.5%); 
 }
 
 
@@ -156,6 +156,7 @@ body.shadow {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    margin-bottom:69%;
 }
 .more:hover {
     background-color: white;
@@ -768,12 +769,20 @@ body.shadow {
     .cimg2 {
         width: 32%;
     }
+    .img1 {
+        right: 0px;
+        width: 40%;
+    }
+    .mtext2 {
+        margin-top: 40%;
+    }
 }
 
 @media screen and (max-width: 992px) {
 
     .img1 {
         right: 0px;
+        width: 40%;
     }
 
     .mtext2{
@@ -930,6 +939,10 @@ body.shadow {
     .cimg2 {
         width: 49.5%;
     }
+    .img1 {
+        right: 0px;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -938,6 +951,9 @@ body.shadow {
         padding-bottom: 50px;
     }
     
+    .more {
+        margin-bottom: 20%;
+    }
     .header a {
         display: none;
     }
